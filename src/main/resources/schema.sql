@@ -1,0 +1,6 @@
+drop table if exists REQUESTS;
+
+create table REQUESTS (
+	LOGIN VARCHAR(250) PRIMARY KEY,
+	REQUEST_COUNT INT
+);
